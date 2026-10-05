@@ -58,7 +58,7 @@ if st.button("💖 Request Spot via WhatsApp"):
         
         # Abby's direct WhatsApp number formatted for the web API
         whatsapp_number = "27615113707" 
-        whatsapp_url = f"https://wa.me{whatsapp_number}?text={encoded_message}"
+        whatsapp_url = f"https://wa.me/{whatsapp_number}?text={encoded_message}"
         
         st.success("Booking request compiled perfectly!")
         st.markdown(f"[👉 Click Here to Open WhatsApp & Send to Abby]({whatsapp_url})")
